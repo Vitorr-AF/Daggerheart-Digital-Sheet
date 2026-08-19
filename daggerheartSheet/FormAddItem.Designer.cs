@@ -42,6 +42,12 @@
             this.label6 = new System.Windows.Forms.Label();
             this.buttonSaveItem = new System.Windows.Forms.Button();
             this.buttonCancelItem = new System.Windows.Forms.Button();
+            this.buttonItemColor = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.numericUpDownItemAmount = new System.Windows.Forms.NumericUpDown();
+            this.textBoxItemDamage = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownItemAmount)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -65,7 +71,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(266, 26);
+            this.label3.Location = new System.Drawing.Point(189, 25);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(31, 13);
             this.label3.TabIndex = 2;
@@ -88,6 +94,7 @@
             // 
             // comboBoxItemType
             // 
+            this.comboBoxItemType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxItemType.FormattingEnabled = true;
             this.comboBoxItemType.Items.AddRange(new object[] {
             "Armadura",
@@ -96,15 +103,15 @@
             "Item",
             "Arma primaria",
             "Arma secundária"});
-            this.comboBoxItemType.Location = new System.Drawing.Point(269, 41);
+            this.comboBoxItemType.Location = new System.Drawing.Point(192, 40);
             this.comboBoxItemType.Name = "comboBoxItemType";
-            this.comboBoxItemType.Size = new System.Drawing.Size(113, 21);
+            this.comboBoxItemType.Size = new System.Drawing.Size(152, 21);
             this.comboBoxItemType.TabIndex = 5;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(397, 26);
+            this.label4.Location = new System.Drawing.Point(358, 25);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(28, 13);
             this.label4.TabIndex = 6;
@@ -112,6 +119,7 @@
             // 
             // comboBoxItemTier
             // 
+            this.comboBoxItemTier.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxItemTier.FormattingEnabled = true;
             this.comboBoxItemTier.Items.AddRange(new object[] {
             "Nenhum",
@@ -119,13 +127,14 @@
             "2",
             "3",
             "4"});
-            this.comboBoxItemTier.Location = new System.Drawing.Point(400, 41);
+            this.comboBoxItemTier.Location = new System.Drawing.Point(361, 40);
             this.comboBoxItemTier.Name = "comboBoxItemTier";
-            this.comboBoxItemTier.Size = new System.Drawing.Size(113, 21);
+            this.comboBoxItemTier.Size = new System.Drawing.Size(152, 21);
             this.comboBoxItemTier.TabIndex = 7;
             // 
             // comboBoxItemTrait
             // 
+            this.comboBoxItemTrait.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxItemTrait.FormattingEnabled = true;
             this.comboBoxItemTrait.Items.AddRange(new object[] {
             "Agilidade",
@@ -134,13 +143,14 @@
             "Conhecimento",
             "Instinto",
             "Presença"});
-            this.comboBoxItemTrait.Location = new System.Drawing.Point(269, 88);
+            this.comboBoxItemTrait.Location = new System.Drawing.Point(192, 87);
             this.comboBoxItemTrait.Name = "comboBoxItemTrait";
-            this.comboBoxItemTrait.Size = new System.Drawing.Size(113, 21);
+            this.comboBoxItemTrait.Size = new System.Drawing.Size(152, 21);
             this.comboBoxItemTrait.TabIndex = 8;
             // 
             // comboBoxItemRange
             // 
+            this.comboBoxItemRange.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxItemRange.FormattingEnabled = true;
             this.comboBoxItemRange.Items.AddRange(new object[] {
             "",
@@ -149,15 +159,15 @@
             "Perto",
             "Distante",
             "Muito distante"});
-            this.comboBoxItemRange.Location = new System.Drawing.Point(400, 88);
+            this.comboBoxItemRange.Location = new System.Drawing.Point(361, 87);
             this.comboBoxItemRange.Name = "comboBoxItemRange";
-            this.comboBoxItemRange.Size = new System.Drawing.Size(113, 21);
+            this.comboBoxItemRange.Size = new System.Drawing.Size(152, 21);
             this.comboBoxItemRange.TabIndex = 9;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(266, 72);
+            this.label5.Location = new System.Drawing.Point(189, 71);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(46, 13);
             this.label5.TabIndex = 10;
@@ -166,7 +176,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(397, 72);
+            this.label6.Location = new System.Drawing.Point(358, 71);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(49, 13);
             this.label6.TabIndex = 11;
@@ -192,11 +202,73 @@
             this.buttonCancelItem.UseVisualStyleBackColor = true;
             this.buttonCancelItem.Click += new System.EventHandler(this.buttonCancelItem_Click);
             // 
-            // Form2
+            // buttonItemColor
+            // 
+            this.buttonItemColor.Location = new System.Drawing.Point(587, 159);
+            this.buttonItemColor.Name = "buttonItemColor";
+            this.buttonItemColor.Size = new System.Drawing.Size(116, 99);
+            this.buttonItemColor.TabIndex = 15;
+            this.buttonItemColor.Text = "Escolher Cor";
+            this.buttonItemColor.UseVisualStyleBackColor = true;
+            this.buttonItemColor.Click += new System.EventHandler(this.buttonItemColor_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(531, 25);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(65, 13);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Quantidade:";
+            // 
+            // numericUpDownItemAmount
+            // 
+            this.numericUpDownItemAmount.Location = new System.Drawing.Point(534, 41);
+            this.numericUpDownItemAmount.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numericUpDownItemAmount.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDownItemAmount.Name = "numericUpDownItemAmount";
+            this.numericUpDownItemAmount.Size = new System.Drawing.Size(152, 20);
+            this.numericUpDownItemAmount.TabIndex = 17;
+            this.numericUpDownItemAmount.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // textBoxItemDamage
+            // 
+            this.textBoxItemDamage.Location = new System.Drawing.Point(534, 88);
+            this.textBoxItemDamage.Name = "textBoxItemDamage";
+            this.textBoxItemDamage.Size = new System.Drawing.Size(152, 20);
+            this.textBoxItemDamage.TabIndex = 18;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(531, 72);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(36, 13);
+            this.label8.TabIndex = 19;
+            this.label8.Text = "Dano:";
+            // 
+            // FormAddItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(529, 356);
+            this.ClientSize = new System.Drawing.Size(783, 356);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.textBoxItemDamage);
+            this.Controls.Add(this.numericUpDownItemAmount);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.buttonItemColor);
             this.Controls.Add(this.buttonCancelItem);
             this.Controls.Add(this.buttonSaveItem);
             this.Controls.Add(this.label6);
@@ -211,8 +283,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "FormAddItem";
+            this.Text = "Adicionar Item";
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownItemAmount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,5 +307,10 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button buttonSaveItem;
         private System.Windows.Forms.Button buttonCancelItem;
+        private System.Windows.Forms.Button buttonItemColor;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.NumericUpDown numericUpDownItemAmount;
+        private System.Windows.Forms.TextBox textBoxItemDamage;
+        private System.Windows.Forms.Label label8;
     }
 }

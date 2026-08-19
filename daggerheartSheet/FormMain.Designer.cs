@@ -81,10 +81,11 @@
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.labelBoxName = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.flowLayoutInventory = new System.Windows.Forms.FlowLayoutPanel();
             this.buttonAddItem = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.flowLayoutInventory = new System.Windows.Forms.FlowLayoutPanel();
+            this.label15 = new System.Windows.Forms.Label();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -826,6 +827,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label15);
             this.tabPage2.Controls.Add(this.flowLayoutInventory);
             this.tabPage2.Controls.Add(this.buttonAddItem);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
@@ -836,9 +838,20 @@
             this.tabPage2.Text = "Inventário e Equipamentos";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // flowLayoutInventory
+            // 
+            this.flowLayoutInventory.AutoScroll = true;
+            this.flowLayoutInventory.BackColor = System.Drawing.Color.Gainsboro;
+            this.flowLayoutInventory.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutInventory.Location = new System.Drawing.Point(11, 33);
+            this.flowLayoutInventory.Name = "flowLayoutInventory";
+            this.flowLayoutInventory.Size = new System.Drawing.Size(234, 317);
+            this.flowLayoutInventory.TabIndex = 2;
+            this.flowLayoutInventory.WrapContents = false;
+            // 
             // buttonAddItem
             // 
-            this.buttonAddItem.Location = new System.Drawing.Point(151, 296);
+            this.buttonAddItem.Location = new System.Drawing.Point(11, 356);
             this.buttonAddItem.Name = "buttonAddItem";
             this.buttonAddItem.Size = new System.Drawing.Size(75, 38);
             this.buttonAddItem.TabIndex = 1;
@@ -863,14 +876,15 @@
             this.panel6.Size = new System.Drawing.Size(798, 420);
             this.panel6.TabIndex = 0;
             // 
-            // flowLayoutInventory
+            // label15
             // 
-            this.flowLayoutInventory.AutoScroll = true;
-            this.flowLayoutInventory.Location = new System.Drawing.Point(151, 134);
-            this.flowLayoutInventory.Name = "flowLayoutInventory";
-            this.flowLayoutInventory.Size = new System.Drawing.Size(318, 156);
-            this.flowLayoutInventory.TabIndex = 2;
-            this.flowLayoutInventory.WrapContents = false;
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(11, 10);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(83, 20);
+            this.label15.TabIndex = 3;
+            this.label15.Text = "Inventário:";
             // 
             // FormMain
             // 
@@ -879,7 +893,6 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tabControl);
             this.Name = "FormMain";
-            this.Text = "Form1";
             this.tabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
@@ -909,6 +922,7 @@
             this.panelBoxName.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownLevel)).EndInit();
             this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -973,6 +987,7 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button buttonAddItem;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutInventory;
+        private System.Windows.Forms.Label label15;
     }
 }
 

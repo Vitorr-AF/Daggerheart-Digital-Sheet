@@ -23,6 +23,9 @@ namespace daggerheartSheet
         public string ItemTier { get; set; }
         public string ItemTrait { get; set; }
         public string ItemRange { get; set; }
+        public Color chosenColor { get; set; } = Color.White;
+        public string ItemDamage { get; set; }
+        public string ItemAmount { get; set; }
 
         private void buttonSaveItem_Click(object sender, EventArgs e)
         {
@@ -38,6 +41,8 @@ namespace daggerheartSheet
             ItemTier = comboBoxItemTier.Text;
             ItemTrait = comboBoxItemTrait.Text;
             ItemRange = comboBoxItemRange.Text;
+            ItemDamage = textBoxItemDamage.Text;
+            ItemAmount = numericUpDownItemAmount.Text;
 
             DialogResult = DialogResult.OK;
             Close();
@@ -48,6 +53,19 @@ namespace daggerheartSheet
         {
             DialogResult = DialogResult.Cancel;
             Close();
+        }
+
+        private void buttonItemColor_Click(object sender, EventArgs e)
+        {
+            using (ColorDialog dialog = new ColorDialog())
+            {
+                if(dialog.ShowDialog() == DialogResult.OK)
+                {
+                    chosenColor = dialog.Color;
+                    buttonItemColor.BackColor = chosenColor;
+                    buttonItemColor.ForeColor = Helper.GetContrastColor(chosenColor);
+                }
+            }
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,5 +15,8 @@ namespace daggerheartSheet
         public int Tier { get; set; }
         public string Trait { get; set; }
         public string Range { get; set; }
+        public Color ChosenColor { get; set; }
+        public int Amount { get; set; } = 1;
+        public string Damage { get; set; }
     }
 }

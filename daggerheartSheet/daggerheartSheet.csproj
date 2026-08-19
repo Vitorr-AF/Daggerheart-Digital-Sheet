@@ -58,6 +58,7 @@
     <Compile Include="FormAddItem.Designer.cs">
       <DependentUpon>FormAddItem.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helper.cs" />
     <Compile Include="InventoryItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
