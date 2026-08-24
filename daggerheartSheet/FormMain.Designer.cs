@@ -81,11 +81,11 @@
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.labelBoxName = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label15 = new System.Windows.Forms.Label();
             this.flowLayoutInventory = new System.Windows.Forms.FlowLayoutPanel();
             this.buttonAddItem = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -184,7 +184,7 @@
             0,
             0});
             this.numericUpDown12.Name = "numericUpDown12";
-            this.numericUpDown12.Size = new System.Drawing.Size(44, 35);
+            this.numericUpDown12.Size = new System.Drawing.Size(47, 35);
             this.numericUpDown12.TabIndex = 40;
             this.numericUpDown12.Value = new decimal(new int[] {
             1,
@@ -195,7 +195,7 @@
             // numericUpDown14
             // 
             this.numericUpDown14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown14.Location = new System.Drawing.Point(126, 60);
+            this.numericUpDown14.Location = new System.Drawing.Point(129, 73);
             this.numericUpDown14.Maximum = new decimal(new int[] {
             10,
             0,
@@ -207,7 +207,7 @@
             0,
             0});
             this.numericUpDown14.Name = "numericUpDown14";
-            this.numericUpDown14.Size = new System.Drawing.Size(44, 35);
+            this.numericUpDown14.Size = new System.Drawing.Size(47, 35);
             this.numericUpDown14.TabIndex = 44;
             this.numericUpDown14.Value = new decimal(new int[] {
             1,
@@ -248,7 +248,7 @@
             0,
             0});
             this.numericUpDown13.Name = "numericUpDown13";
-            this.numericUpDown13.Size = new System.Drawing.Size(44, 35);
+            this.numericUpDown13.Size = new System.Drawing.Size(47, 35);
             this.numericUpDown13.TabIndex = 41;
             this.numericUpDown13.Value = new decimal(new int[] {
             1,
@@ -267,7 +267,7 @@
             this.panel3.Controls.Add(this.numericUpDown7);
             this.panel3.Location = new System.Drawing.Point(6, 142);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(369, 145);
+            this.panel3.Size = new System.Drawing.Size(396, 145);
             this.panel3.TabIndex = 3;
             // 
             // panel4
@@ -280,13 +280,13 @@
             this.panel4.Controls.Add(this.label11);
             this.panel4.Location = new System.Drawing.Point(113, 41);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(241, 50);
+            this.panel4.Size = new System.Drawing.Size(269, 50);
             this.panel4.TabIndex = 39;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(23, 9);
+            this.label9.Location = new System.Drawing.Point(26, 8);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(36, 26);
             this.label9.TabIndex = 34;
@@ -296,14 +296,14 @@
             // numericUpDown11
             // 
             this.numericUpDown11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown11.Location = new System.Drawing.Point(143, 12);
+            this.numericUpDown11.Location = new System.Drawing.Point(148, 11);
             this.numericUpDown11.Maximum = new decimal(new int[] {
             16,
             0,
             0,
             0});
             this.numericUpDown11.Name = "numericUpDown11";
-            this.numericUpDown11.Size = new System.Drawing.Size(31, 23);
+            this.numericUpDown11.Size = new System.Drawing.Size(43, 23);
             this.numericUpDown11.TabIndex = 38;
             this.numericUpDown11.Value = new decimal(new int[] {
             1,
@@ -314,7 +314,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(103, 9);
+            this.label10.Location = new System.Drawing.Point(114, 8);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(33, 26);
             this.label10.TabIndex = 35;
@@ -324,14 +324,14 @@
             // numericUpDown10
             // 
             this.numericUpDown10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown10.Location = new System.Drawing.Point(63, 12);
+            this.numericUpDown10.Location = new System.Drawing.Point(68, 11);
             this.numericUpDown10.Maximum = new decimal(new int[] {
             16,
             0,
             0,
             0});
             this.numericUpDown10.Name = "numericUpDown10";
-            this.numericUpDown10.Size = new System.Drawing.Size(31, 23);
+            this.numericUpDown10.Size = new System.Drawing.Size(43, 23);
             this.numericUpDown10.TabIndex = 37;
             this.numericUpDown10.Value = new decimal(new int[] {
             1,
@@ -342,7 +342,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(183, 9);
+            this.label11.Location = new System.Drawing.Point(203, 8);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(39, 26);
             this.label11.TabIndex = 36;
@@ -359,7 +359,7 @@
             0,
             0});
             this.numericUpDown9.Name = "numericUpDown9";
-            this.numericUpDown9.Size = new System.Drawing.Size(31, 23);
+            this.numericUpDown9.Size = new System.Drawing.Size(42, 23);
             this.numericUpDown9.TabIndex = 33;
             this.numericUpDown9.Value = new decimal(new int[] {
             1,
@@ -391,7 +391,7 @@
             0,
             0});
             this.numericUpDown8.Name = "numericUpDown8";
-            this.numericUpDown8.Size = new System.Drawing.Size(44, 35);
+            this.numericUpDown8.Size = new System.Drawing.Size(47, 35);
             this.numericUpDown8.TabIndex = 31;
             this.numericUpDown8.Value = new decimal(new int[] {
             1,
@@ -423,7 +423,7 @@
             0,
             0});
             this.numericUpDown7.Name = "numericUpDown7";
-            this.numericUpDown7.Size = new System.Drawing.Size(44, 35);
+            this.numericUpDown7.Size = new System.Drawing.Size(47, 35);
             this.numericUpDown7.TabIndex = 29;
             this.numericUpDown7.Value = new decimal(new int[] {
             1,
@@ -580,7 +580,7 @@
             0,
             0});
             this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(44, 35);
+            this.numericUpDown6.Size = new System.Drawing.Size(47, 35);
             this.numericUpDown6.TabIndex = 16;
             this.numericUpDown6.Value = new decimal(new int[] {
             1,
@@ -603,7 +603,7 @@
             0,
             0});
             this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(44, 35);
+            this.numericUpDown5.Size = new System.Drawing.Size(47, 35);
             this.numericUpDown5.TabIndex = 15;
             this.numericUpDown5.Value = new decimal(new int[] {
             1,
@@ -626,7 +626,7 @@
             0,
             0});
             this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(44, 35);
+            this.numericUpDown4.Size = new System.Drawing.Size(47, 35);
             this.numericUpDown4.TabIndex = 14;
             this.numericUpDown4.Value = new decimal(new int[] {
             1,
@@ -649,7 +649,7 @@
             0,
             0});
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(44, 35);
+            this.numericUpDown3.Size = new System.Drawing.Size(47, 35);
             this.numericUpDown3.TabIndex = 13;
             this.numericUpDown3.Value = new decimal(new int[] {
             1,
@@ -672,7 +672,7 @@
             0,
             0});
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(44, 35);
+            this.numericUpDown2.Size = new System.Drawing.Size(47, 35);
             this.numericUpDown2.TabIndex = 12;
             this.numericUpDown2.Value = new decimal(new int[] {
             1,
@@ -695,7 +695,7 @@
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(44, 35);
+            this.numericUpDown1.Size = new System.Drawing.Size(47, 35);
             this.numericUpDown1.TabIndex = 11;
             this.numericUpDown1.Value = new decimal(new int[] {
             1,
@@ -838,6 +838,16 @@
             this.tabPage2.Text = "Inventário e Equipamentos";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(11, 10);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(83, 20);
+            this.label15.TabIndex = 3;
+            this.label15.Text = "Inventário:";
+            // 
             // flowLayoutInventory
             // 
             this.flowLayoutInventory.AutoScroll = true;
@@ -875,16 +885,6 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(798, 420);
             this.panel6.TabIndex = 0;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(11, 10);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(83, 20);
-            this.label15.TabIndex = 3;
-            this.label15.Text = "Inventário:";
             // 
             // FormMain
             // 
