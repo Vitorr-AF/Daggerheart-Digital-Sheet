@@ -82,21 +82,21 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(198, 30);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(161, 21);
             this.comboBox1.TabIndex = 3;
             // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(342, 30);
+            this.comboBox2.Location = new System.Drawing.Point(387, 30);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.Size = new System.Drawing.Size(161, 21);
             this.comboBox2.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(339, 13);
+            this.label3.Location = new System.Drawing.Point(384, 13);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(46, 13);
             this.label3.TabIndex = 4;
@@ -107,7 +107,7 @@
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Location = new System.Drawing.Point(198, 85);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 21);
+            this.comboBox3.Size = new System.Drawing.Size(161, 21);
             this.comboBox3.TabIndex = 7;
             // 
             // label4
@@ -122,15 +122,15 @@
             // comboBox4
             // 
             this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(342, 85);
+            this.comboBox4.Location = new System.Drawing.Point(387, 85);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 21);
+            this.comboBox4.Size = new System.Drawing.Size(161, 21);
             this.comboBox4.TabIndex = 9;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(339, 68);
+            this.label5.Location = new System.Drawing.Point(384, 68);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 13);
             this.label5.TabIndex = 8;
@@ -141,7 +141,7 @@
             this.comboBox5.FormattingEnabled = true;
             this.comboBox5.Location = new System.Drawing.Point(198, 135);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(121, 21);
+            this.comboBox5.Size = new System.Drawing.Size(161, 21);
             this.comboBox5.TabIndex = 11;
             // 
             // label6
@@ -155,7 +155,7 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(514, 85);
+            this.numericUpDown1.Location = new System.Drawing.Point(390, 191);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown1.TabIndex = 12;
@@ -163,7 +163,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(511, 69);
+            this.label7.Location = new System.Drawing.Point(387, 175);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(83, 13);
             this.label7.TabIndex = 13;
@@ -171,15 +171,15 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(342, 136);
+            this.textBox2.Location = new System.Drawing.Point(387, 136);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(130, 20);
+            this.textBox2.Size = new System.Drawing.Size(161, 20);
             this.textBox2.TabIndex = 15;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(342, 119);
+            this.label8.Location = new System.Drawing.Point(387, 119);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(36, 13);
             this.label8.TabIndex = 14;
@@ -190,7 +190,7 @@
             this.textBoxItemDescription.Location = new System.Drawing.Point(12, 190);
             this.textBoxItemDescription.Multiline = true;
             this.textBoxItemDescription.Name = "textBoxItemDescription";
-            this.textBoxItemDescription.Size = new System.Drawing.Size(323, 127);
+            this.textBoxItemDescription.Size = new System.Drawing.Size(369, 153);
             this.textBoxItemDescription.TabIndex = 16;
             // 
             // label9
@@ -204,7 +204,7 @@
             // 
             // buttonItemColor
             // 
-            this.buttonItemColor.Location = new System.Drawing.Point(497, 190);
+            this.buttonItemColor.Location = new System.Drawing.Point(415, 244);
             this.buttonItemColor.Name = "buttonItemColor";
             this.buttonItemColor.Size = new System.Drawing.Size(116, 99);
             this.buttonItemColor.TabIndex = 18;
@@ -222,7 +222,7 @@
             // 
             // buttonSaveItem
             // 
-            this.buttonSaveItem.Location = new System.Drawing.Point(538, 349);
+            this.buttonSaveItem.Location = new System.Drawing.Point(473, 349);
             this.buttonSaveItem.Name = "buttonSaveItem";
             this.buttonSaveItem.Size = new System.Drawing.Size(75, 23);
             this.buttonSaveItem.TabIndex = 20;
@@ -233,7 +233,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(764, 384);
+            this.ClientSize = new System.Drawing.Size(582, 387);
             this.Controls.Add(this.buttonSaveItem);
             this.Controls.Add(this.buttonCancelItem);
             this.Controls.Add(this.buttonItemColor);
