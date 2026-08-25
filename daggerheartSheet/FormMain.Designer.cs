@@ -84,8 +84,16 @@
             this.label15 = new System.Windows.Forms.Label();
             this.flowLayoutInventory = new System.Windows.Forms.FlowLayoutPanel();
             this.buttonAddItem = new System.Windows.Forms.Button();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label20 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label21 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button1 = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -110,14 +118,12 @@
             this.panelBoxName.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownLevel)).BeginInit();
             this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
             // 
             this.tabControl.Controls.Add(this.tabPage1);
             this.tabControl.Controls.Add(this.tabPage2);
-            this.tabControl.Controls.Add(this.tabPage3);
             this.tabControl.Location = new System.Drawing.Point(-3, 1);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
@@ -768,7 +774,7 @@
             this.textBoxHeritage.Name = "textBoxHeritage";
             this.textBoxHeritage.Size = new System.Drawing.Size(100, 20);
             this.textBoxHeritage.TabIndex = 7;
-            this.textBoxHeritage.Text = "linhagem aqui";
+            this.textBoxHeritage.Text = "herança aqui";
             this.textBoxHeritage.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxHeritage_KeyDown);
             // 
             // textBoxPronouns
@@ -794,9 +800,9 @@
             this.labelBoxHeritage.AutoSize = true;
             this.labelBoxHeritage.Location = new System.Drawing.Point(9, 69);
             this.labelBoxHeritage.Name = "labelBoxHeritage";
-            this.labelBoxHeritage.Size = new System.Drawing.Size(56, 13);
+            this.labelBoxHeritage.Size = new System.Drawing.Size(51, 13);
             this.labelBoxHeritage.TabIndex = 4;
-            this.labelBoxHeritage.Text = "Linhagem:";
+            this.labelBoxHeritage.Text = "Herança:";
             // 
             // labelBoxPronouns
             // 
@@ -827,6 +833,16 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.button1);
+            this.tabPage2.Controls.Add(this.label17);
+            this.tabPage2.Controls.Add(this.label16);
+            this.tabPage2.Controls.Add(this.flowLayoutPanel1);
+            this.tabPage2.Controls.Add(this.label21);
+            this.tabPage2.Controls.Add(this.flowLayoutPanel6);
+            this.tabPage2.Controls.Add(this.label20);
+            this.tabPage2.Controls.Add(this.flowLayoutPanel5);
+            this.tabPage2.Controls.Add(this.label19);
+            this.tabPage2.Controls.Add(this.flowLayoutPanel4);
             this.tabPage2.Controls.Add(this.label15);
             this.tabPage2.Controls.Add(this.flowLayoutInventory);
             this.tabPage2.Controls.Add(this.buttonAddItem);
@@ -835,16 +851,16 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(798, 420);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Inventário e Equipamentos";
+            this.tabPage2.Text = "Inventário e Habilidades";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(11, 10);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(83, 20);
+            this.label15.Size = new System.Drawing.Size(107, 24);
             this.label15.TabIndex = 3;
             this.label15.Text = "Inventário:";
             // 
@@ -853,7 +869,7 @@
             this.flowLayoutInventory.AutoScroll = true;
             this.flowLayoutInventory.BackColor = System.Drawing.Color.Gainsboro;
             this.flowLayoutInventory.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutInventory.Location = new System.Drawing.Point(11, 33);
+            this.flowLayoutInventory.Location = new System.Drawing.Point(11, 41);
             this.flowLayoutInventory.Name = "flowLayoutInventory";
             this.flowLayoutInventory.Size = new System.Drawing.Size(234, 317);
             this.flowLayoutInventory.TabIndex = 2;
@@ -861,7 +877,7 @@
             // 
             // buttonAddItem
             // 
-            this.buttonAddItem.Location = new System.Drawing.Point(11, 356);
+            this.buttonAddItem.Location = new System.Drawing.Point(11, 364);
             this.buttonAddItem.Name = "buttonAddItem";
             this.buttonAddItem.Size = new System.Drawing.Size(75, 38);
             this.buttonAddItem.TabIndex = 1;
@@ -869,22 +885,96 @@
             this.buttonAddItem.UseVisualStyleBackColor = true;
             this.buttonAddItem.Click += new System.EventHandler(this.buttonAddItem_Click);
             // 
-            // tabPage3
+            // label19
             // 
-            this.tabPage3.Controls.Add(this.panel6);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(798, 420);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Ataques e Habilidades";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(278, 39);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(131, 18);
+            this.label19.TabIndex = 8;
+            this.label19.Text = "Classe/Subclasse:";
             // 
-            // panel6
+            // flowLayoutPanel4
             // 
-            this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(798, 420);
-            this.panel6.TabIndex = 0;
+            this.flowLayoutPanel4.BackColor = System.Drawing.Color.Gainsboro;
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(282, 62);
+            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(212, 132);
+            this.flowLayoutPanel4.TabIndex = 7;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(513, 39);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(128, 18);
+            this.label20.TabIndex = 10;
+            this.label20.Text = "Carta de Domínio:";
+            // 
+            // flowLayoutPanel5
+            // 
+            this.flowLayoutPanel5.BackColor = System.Drawing.Color.Gainsboro;
+            this.flowLayoutPanel5.Location = new System.Drawing.Point(513, 62);
+            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
+            this.flowLayoutPanel5.Size = new System.Drawing.Size(212, 132);
+            this.flowLayoutPanel5.TabIndex = 9;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(279, 205);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(196, 18);
+            this.label21.TabIndex = 12;
+            this.label21.Text = "Ancestralidade/Comunidade:";
+            // 
+            // flowLayoutPanel6
+            // 
+            this.flowLayoutPanel6.BackColor = System.Drawing.Color.Gainsboro;
+            this.flowLayoutPanel6.Location = new System.Drawing.Point(282, 226);
+            this.flowLayoutPanel6.Name = "flowLayoutPanel6";
+            this.flowLayoutPanel6.Size = new System.Drawing.Size(212, 132);
+            this.flowLayoutPanel6.TabIndex = 11;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(277, 10);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(126, 24);
+            this.label16.TabIndex = 13;
+            this.label16.Text = "Habilidades:";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(513, 205);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(58, 18);
+            this.label17.TabIndex = 14;
+            this.label17.Text = "Outros:";
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(513, 226);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(212, 132);
+            this.flowLayoutPanel1.TabIndex = 13;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(282, 364);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 38);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Adicionar habilidade";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // FormMain
             // 
@@ -923,7 +1013,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownLevel)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -969,7 +1058,6 @@
         private System.Windows.Forms.NumericUpDown numericUpDown8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.NumericUpDown numericUpDown7;
-        private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.NumericUpDown numericUpDown9;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label11;
@@ -984,10 +1072,19 @@
         private System.Windows.Forms.NumericUpDown numericUpDown13;
         private System.Windows.Forms.NumericUpDown numericUpDown12;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button buttonAddItem;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutInventory;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel6;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
 
