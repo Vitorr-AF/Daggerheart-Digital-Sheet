@@ -97,6 +97,7 @@
             this.comboBoxItemType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxItemType.FormattingEnabled = true;
             this.comboBoxItemType.Items.AddRange(new object[] {
+            "",
             "Armadura",
             "Cadeira de rodas de combate",
             "Consumivel",
@@ -122,7 +123,7 @@
             this.comboBoxItemTier.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxItemTier.FormattingEnabled = true;
             this.comboBoxItemTier.Items.AddRange(new object[] {
-            "Nenhum",
+            "",
             "1",
             "2",
             "3",
@@ -137,6 +138,7 @@
             this.comboBoxItemTrait.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxItemTrait.FormattingEnabled = true;
             this.comboBoxItemTrait.Items.AddRange(new object[] {
+            "",
             "Agilidade",
             "Força",
             "Finesse",

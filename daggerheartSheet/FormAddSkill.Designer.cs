@@ -168,6 +168,17 @@
             // 
             this.comboBoxSkillDomain.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxSkillDomain.FormattingEnabled = true;
+            this.comboBoxSkillDomain.Items.AddRange(new object[] {
+            "",
+            "Arcano",
+            "Códice",
+            "Esplendor",
+            "Falange",
+            "Graça",
+            "Lâmina",
+            "Meia-noite",
+            "Sabedoria",
+            "Valor"});
             this.comboBoxSkillDomain.Location = new System.Drawing.Point(198, 135);
             this.comboBoxSkillDomain.Name = "comboBoxSkillDomain";
             this.comboBoxSkillDomain.Size = new System.Drawing.Size(161, 21);
