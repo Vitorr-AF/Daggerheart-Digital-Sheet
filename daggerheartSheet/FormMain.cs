@@ -53,6 +53,19 @@ namespace daggerheartSheet
             }
         }
 
+
+        private void buttonAddSkill_Click(object sender, EventArgs e)
+        {
+            using (FormAddSkill window = new FormAddSkill())
+            {
+                if (window.ShowDialog() == DialogResult.OK)
+                {
+                    
+                }
+            }
+        }
+
+
         private void buttonAddItem_Click(object sender, EventArgs e)
         {
             using (FormAddItem window = new FormAddItem())

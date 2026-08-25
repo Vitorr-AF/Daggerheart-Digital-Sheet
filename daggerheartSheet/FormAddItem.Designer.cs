@@ -81,7 +81,7 @@
             // 
             this.textBoxItemName.Location = new System.Drawing.Point(15, 26);
             this.textBoxItemName.Name = "textBoxItemName";
-            this.textBoxItemName.Size = new System.Drawing.Size(100, 20);
+            this.textBoxItemName.Size = new System.Drawing.Size(168, 20);
             this.textBoxItemName.TabIndex = 3;
             // 
             // textBoxItemDescription

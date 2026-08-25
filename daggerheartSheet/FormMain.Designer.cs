@@ -93,7 +93,7 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonAddSkill = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -833,7 +833,7 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.button1);
+            this.tabPage2.Controls.Add(this.buttonAddSkill);
             this.tabPage2.Controls.Add(this.label17);
             this.tabPage2.Controls.Add(this.label16);
             this.tabPage2.Controls.Add(this.flowLayoutPanel1);
@@ -967,14 +967,15 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(212, 132);
             this.flowLayoutPanel1.TabIndex = 13;
             // 
-            // button1
+            // buttonAddSkill
             // 
-            this.button1.Location = new System.Drawing.Point(282, 364);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 38);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "Adicionar habilidade";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonAddSkill.Location = new System.Drawing.Point(282, 364);
+            this.buttonAddSkill.Name = "buttonAddSkill";
+            this.buttonAddSkill.Size = new System.Drawing.Size(75, 38);
+            this.buttonAddSkill.TabIndex = 15;
+            this.buttonAddSkill.Text = "Adicionar habilidade";
+            this.buttonAddSkill.UseVisualStyleBackColor = true;
+            this.buttonAddSkill.Click += new System.EventHandler(this.buttonAddSkill_Click);
             // 
             // FormMain
             // 
@@ -1082,7 +1083,7 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonAddSkill;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
