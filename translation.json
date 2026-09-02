@@ -1,0 +1,19 @@
+{
+    "pt-br":{
+        "labelName": "Nome:",
+        "labelPronouns": "Pronomes:",
+        "labelHeritage": "Herança:",
+        "labelClass:":"Classe:",
+        "textBoxName": "Nome aqui",
+        "textBoxPronouns": "Pronomes aqui",
+        "textBoxHeritage": "Herança aqui",
+        "textBoxClass": "Classe aqui",
+        "labelLevel": "Nível:",
+        "labelAgility": "Agilidade",
+        "labelStrenght": "Força:",
+        "labelFinesse": "Finesse:",
+        "labelInstinct": "Instinto:",
+        "labelPresence": "Presença:",
+        "labelKnowledge": "Conhecimento"
+    }
+}
