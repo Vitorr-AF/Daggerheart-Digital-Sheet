@@ -60,8 +60,39 @@ namespace daggerheartSheet
             {
                 if (window.ShowDialog() == DialogResult.OK)
                 {
-                    
-                }
+                    Panel skillPanel = new Panel();
+
+                    Skill skill = new Skill
+                    {
+                        Name = window.SkillName,
+                        Description = window.SkillDescription,
+                        Source = window.SkillSource,
+                        RecallCost = window.SkillRecallCost,
+                        Type = window.SkillType,
+                        Range = window.SkillRange,
+                        Damage = window.SkillDamage,
+                        Trait = window.SkillTrait,
+                        Domain = window.SkillDomain,
+                    };
+
+                    if (window.SkillSource == "Classe/Subclasse")
+                    {
+                        skillPanel.BackColor = Color.LightBlue;
+                    }
+                    else if (window.SkillSource == "Carta de Dominio")
+                    {
+                        skillPanel.BackColor = Color.LightGreen;
+                    }
+                    else if (window.SkillSource == "Ancestraldade/Comunidade")
+                    {
+                        skillPanel.BackColor = Color.LightYellow;
+                    }
+                    else if (window.SkillSource == "Outro")
+                    {
+                        skillPanel.BackColor = Color.LightGray;
+
+
+                    }
             }
         }
 
@@ -113,8 +144,6 @@ namespace daggerheartSheet
                 }
             }
         }
-
-
         private void ItemPanel_Click(object sender, EventArgs e)
         {
             Panel panel = (Panel)sender;

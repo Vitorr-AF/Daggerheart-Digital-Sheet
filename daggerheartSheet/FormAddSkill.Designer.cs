@@ -122,7 +122,7 @@
             this.comboBoxSkillSource.FormattingEnabled = true;
             this.comboBoxSkillSource.Items.AddRange(new object[] {
             "Classe/Subclasse",
-            "Carta de Domínio",
+            "Carta de Dominio",
             "Ancestraldade/Comunidade",
             "Outros"});
             this.comboBoxSkillSource.Location = new System.Drawing.Point(198, 85);
@@ -178,6 +178,7 @@
             "Lâmina",
             "Meia-noite",
             "Sabedoria",
+            "Sangue",
             "Valor"});
             this.comboBoxSkillDomain.Location = new System.Drawing.Point(198, 135);
             this.comboBoxSkillDomain.Name = "comboBoxSkillDomain";
@@ -255,6 +256,7 @@
             this.buttonSkillColor.TabIndex = 18;
             this.buttonSkillColor.Text = "Escolher Cor";
             this.buttonSkillColor.UseVisualStyleBackColor = true;
+            this.buttonSkillColor.Click += new System.EventHandler(this.buttonSkillColor_Click);
             // 
             // buttonCancelSkill
             // 
@@ -264,6 +266,7 @@
             this.buttonCancelSkill.TabIndex = 19;
             this.buttonCancelSkill.Text = "Cancelar";
             this.buttonCancelSkill.UseVisualStyleBackColor = true;
+            this.buttonCancelSkill.Click += new System.EventHandler(this.buttonCancelSkill_Click);
             // 
             // buttonSaveSkill
             // 
@@ -273,6 +276,7 @@
             this.buttonSaveSkill.TabIndex = 20;
             this.buttonSaveSkill.Text = "Salvar";
             this.buttonSaveSkill.UseVisualStyleBackColor = true;
+            this.buttonSaveSkill.Click += new System.EventHandler(this.buttonSaveSkill_Click);
             // 
             // FormAddSkill
             // 
