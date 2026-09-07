@@ -94,6 +94,11 @@
             this.label15 = new System.Windows.Forms.Label();
             this.flowLayoutInventory = new System.Windows.Forms.FlowLayoutPanel();
             this.buttonAddItem = new System.Windows.Forms.Button();
+            this.labelCurrent = new System.Windows.Forms.Label();
+            this.labelMax = new System.Windows.Forms.Label();
+            this.numericUpDownMaxHealth = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownMaxStress = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownMaxHope = new System.Windows.Forms.NumericUpDown();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -118,6 +123,9 @@
             this.panelBoxName.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownLevel)).BeginInit();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMaxHealth)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMaxStress)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMaxHope)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl
@@ -155,21 +163,26 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel5.Controls.Add(this.numericUpDownMaxHope);
+            this.panel5.Controls.Add(this.numericUpDownMaxStress);
+            this.panel5.Controls.Add(this.numericUpDownMaxHealth);
+            this.panel5.Controls.Add(this.labelMax);
+            this.panel5.Controls.Add(this.labelCurrent);
             this.panel5.Controls.Add(this.labelHope);
             this.panel5.Controls.Add(this.numericUpDownHealth);
             this.panel5.Controls.Add(this.numericUpDownHope);
             this.panel5.Controls.Add(this.labelHealth);
             this.panel5.Controls.Add(this.labelStress);
             this.panel5.Controls.Add(this.numericUpDownStress);
-            this.panel5.Location = new System.Drawing.Point(544, 142);
+            this.panel5.Location = new System.Drawing.Point(426, 142);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(200, 145);
+            this.panel5.Size = new System.Drawing.Size(318, 145);
             this.panel5.TabIndex = 4;
             // 
             // labelHope
             // 
             this.labelHope.AutoSize = true;
-            this.labelHope.Location = new System.Drawing.Point(126, 56);
+            this.labelHope.Location = new System.Drawing.Point(196, 9);
             this.labelHope.Name = "labelHope";
             this.labelHope.Size = new System.Drawing.Size(61, 13);
             this.labelHope.TabIndex = 45;
@@ -178,7 +191,7 @@
             // numericUpDownHealth
             // 
             this.numericUpDownHealth.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDownHealth.Location = new System.Drawing.Point(20, 35);
+            this.numericUpDownHealth.Location = new System.Drawing.Point(74, 26);
             this.numericUpDownHealth.Maximum = new decimal(new int[] {
             10,
             0,
@@ -201,7 +214,7 @@
             // numericUpDownHope
             // 
             this.numericUpDownHope.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDownHope.Location = new System.Drawing.Point(129, 73);
+            this.numericUpDownHope.Location = new System.Drawing.Point(199, 26);
             this.numericUpDownHope.Maximum = new decimal(new int[] {
             10,
             0,
@@ -224,7 +237,7 @@
             // labelHealth
             // 
             this.labelHealth.AutoSize = true;
-            this.labelHealth.Location = new System.Drawing.Point(20, 16);
+            this.labelHealth.Location = new System.Drawing.Point(74, 9);
             this.labelHealth.Name = "labelHealth";
             this.labelHealth.Size = new System.Drawing.Size(31, 13);
             this.labelHealth.TabIndex = 42;
@@ -233,7 +246,7 @@
             // labelStress
             // 
             this.labelStress.AutoSize = true;
-            this.labelStress.Location = new System.Drawing.Point(17, 73);
+            this.labelStress.Location = new System.Drawing.Point(133, 9);
             this.labelStress.Name = "labelStress";
             this.labelStress.Size = new System.Drawing.Size(50, 13);
             this.labelStress.TabIndex = 43;
@@ -242,7 +255,7 @@
             // numericUpDownStress
             // 
             this.numericUpDownStress.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDownStress.Location = new System.Drawing.Point(20, 92);
+            this.numericUpDownStress.Location = new System.Drawing.Point(136, 26);
             this.numericUpDownStress.Maximum = new decimal(new int[] {
             10,
             0,
@@ -977,6 +990,93 @@
             this.buttonAddItem.UseVisualStyleBackColor = true;
             this.buttonAddItem.Click += new System.EventHandler(this.buttonAddItem_Click);
             // 
+            // labelCurrent
+            // 
+            this.labelCurrent.AutoSize = true;
+            this.labelCurrent.Location = new System.Drawing.Point(19, 40);
+            this.labelCurrent.Name = "labelCurrent";
+            this.labelCurrent.Size = new System.Drawing.Size(34, 13);
+            this.labelCurrent.TabIndex = 46;
+            this.labelCurrent.Text = "Atual:";
+            // 
+            // labelMax
+            // 
+            this.labelMax.AutoSize = true;
+            this.labelMax.Location = new System.Drawing.Point(19, 90);
+            this.labelMax.Name = "labelMax";
+            this.labelMax.Size = new System.Drawing.Size(46, 13);
+            this.labelMax.TabIndex = 47;
+            this.labelMax.Text = "Máximo:";
+            // 
+            // numericUpDownMaxHealth
+            // 
+            this.numericUpDownMaxHealth.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDownMaxHealth.Location = new System.Drawing.Point(74, 76);
+            this.numericUpDownMaxHealth.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.numericUpDownMaxHealth.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDownMaxHealth.Name = "numericUpDownMaxHealth";
+            this.numericUpDownMaxHealth.Size = new System.Drawing.Size(47, 35);
+            this.numericUpDownMaxHealth.TabIndex = 48;
+            this.numericUpDownMaxHealth.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // numericUpDownMaxStress
+            // 
+            this.numericUpDownMaxStress.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDownMaxStress.Location = new System.Drawing.Point(136, 76);
+            this.numericUpDownMaxStress.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.numericUpDownMaxStress.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDownMaxStress.Name = "numericUpDownMaxStress";
+            this.numericUpDownMaxStress.Size = new System.Drawing.Size(47, 35);
+            this.numericUpDownMaxStress.TabIndex = 49;
+            this.numericUpDownMaxStress.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // numericUpDownMaxHope
+            // 
+            this.numericUpDownMaxHope.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDownMaxHope.Location = new System.Drawing.Point(199, 76);
+            this.numericUpDownMaxHope.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.numericUpDownMaxHope.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDownMaxHope.Name = "numericUpDownMaxHope";
+            this.numericUpDownMaxHope.Size = new System.Drawing.Size(47, 35);
+            this.numericUpDownMaxHope.TabIndex = 50;
+            this.numericUpDownMaxHope.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1014,6 +1114,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownLevel)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMaxHealth)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMaxStress)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMaxHope)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1086,6 +1189,11 @@
         private System.Windows.Forms.Button buttonAddSkill;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.NumericUpDown numericUpDownMaxHope;
+        private System.Windows.Forms.NumericUpDown numericUpDownMaxStress;
+        private System.Windows.Forms.NumericUpDown numericUpDownMaxHealth;
+        private System.Windows.Forms.Label labelMax;
+        private System.Windows.Forms.Label labelCurrent;
     }
 }
 
