@@ -28,54 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelItemName = new System.Windows.Forms.Label();
+            this.labelItemDescription = new System.Windows.Forms.Label();
+            this.labelItemType = new System.Windows.Forms.Label();
             this.textBoxItemName = new System.Windows.Forms.TextBox();
             this.textBoxItemDescription = new System.Windows.Forms.TextBox();
             this.comboBoxItemType = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelItemTier = new System.Windows.Forms.Label();
             this.comboBoxItemTier = new System.Windows.Forms.ComboBox();
             this.comboBoxItemTrait = new System.Windows.Forms.ComboBox();
             this.comboBoxItemRange = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.labelItemTrait = new System.Windows.Forms.Label();
+            this.labelItemRange = new System.Windows.Forms.Label();
             this.buttonSaveItem = new System.Windows.Forms.Button();
             this.buttonCancelItem = new System.Windows.Forms.Button();
             this.buttonItemColor = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
+            this.labelItemAmount = new System.Windows.Forms.Label();
             this.numericUpDownItemAmount = new System.Windows.Forms.NumericUpDown();
             this.textBoxItemDamage = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.labelItemDamage = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownItemAmount)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // labelItemName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nome do item:";
+            this.labelItemName.AutoSize = true;
+            this.labelItemName.Location = new System.Drawing.Point(12, 9);
+            this.labelItemName.Name = "labelItemName";
+            this.labelItemName.Size = new System.Drawing.Size(75, 13);
+            this.labelItemName.TabIndex = 0;
+            this.labelItemName.Text = "Nome do item:";
             // 
-            // label2
+            // labelItemDescription
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 114);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Descrição:";
+            this.labelItemDescription.AutoSize = true;
+            this.labelItemDescription.Location = new System.Drawing.Point(12, 114);
+            this.labelItemDescription.Name = "labelItemDescription";
+            this.labelItemDescription.Size = new System.Drawing.Size(58, 13);
+            this.labelItemDescription.TabIndex = 1;
+            this.labelItemDescription.Text = "Descrição:";
             // 
-            // label3
+            // labelItemType
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(189, 25);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Tipo:";
+            this.labelItemType.AutoSize = true;
+            this.labelItemType.Location = new System.Drawing.Point(189, 25);
+            this.labelItemType.Name = "labelItemType";
+            this.labelItemType.Size = new System.Drawing.Size(31, 13);
+            this.labelItemType.TabIndex = 2;
+            this.labelItemType.Text = "Tipo:";
             // 
             // textBoxItemName
             // 
@@ -109,14 +109,14 @@
             this.comboBoxItemType.Size = new System.Drawing.Size(152, 21);
             this.comboBoxItemType.TabIndex = 5;
             // 
-            // label4
+            // labelItemTier
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(358, 25);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(28, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Tier:";
+            this.labelItemTier.AutoSize = true;
+            this.labelItemTier.Location = new System.Drawing.Point(358, 25);
+            this.labelItemTier.Name = "labelItemTier";
+            this.labelItemTier.Size = new System.Drawing.Size(28, 13);
+            this.labelItemTier.TabIndex = 6;
+            this.labelItemTier.Text = "Tier:";
             // 
             // comboBoxItemTier
             // 
@@ -166,23 +166,23 @@
             this.comboBoxItemRange.Size = new System.Drawing.Size(152, 21);
             this.comboBoxItemRange.TabIndex = 9;
             // 
-            // label5
+            // labelItemTrait
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(189, 71);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 13);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Atributo:";
+            this.labelItemTrait.AutoSize = true;
+            this.labelItemTrait.Location = new System.Drawing.Point(189, 71);
+            this.labelItemTrait.Name = "labelItemTrait";
+            this.labelItemTrait.Size = new System.Drawing.Size(46, 13);
+            this.labelItemTrait.TabIndex = 10;
+            this.labelItemTrait.Text = "Atributo:";
             // 
-            // label6
+            // labelItemRange
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(358, 71);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(49, 13);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "Alcance:";
+            this.labelItemRange.AutoSize = true;
+            this.labelItemRange.Location = new System.Drawing.Point(358, 71);
+            this.labelItemRange.Name = "labelItemRange";
+            this.labelItemRange.Size = new System.Drawing.Size(49, 13);
+            this.labelItemRange.TabIndex = 11;
+            this.labelItemRange.Text = "Alcance:";
             // 
             // buttonSaveItem
             // 
@@ -214,14 +214,14 @@
             this.buttonItemColor.UseVisualStyleBackColor = true;
             this.buttonItemColor.Click += new System.EventHandler(this.buttonItemColor_Click);
             // 
-            // label7
+            // labelItemAmount
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(531, 25);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(65, 13);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Quantidade:";
+            this.labelItemAmount.AutoSize = true;
+            this.labelItemAmount.Location = new System.Drawing.Point(531, 25);
+            this.labelItemAmount.Name = "labelItemAmount";
+            this.labelItemAmount.Size = new System.Drawing.Size(65, 13);
+            this.labelItemAmount.TabIndex = 16;
+            this.labelItemAmount.Text = "Quantidade:";
             // 
             // numericUpDownItemAmount
             // 
@@ -252,39 +252,39 @@
             this.textBoxItemDamage.Size = new System.Drawing.Size(152, 20);
             this.textBoxItemDamage.TabIndex = 18;
             // 
-            // label8
+            // labelItemDamage
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(531, 72);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(36, 13);
-            this.label8.TabIndex = 19;
-            this.label8.Text = "Dano:";
+            this.labelItemDamage.AutoSize = true;
+            this.labelItemDamage.Location = new System.Drawing.Point(531, 72);
+            this.labelItemDamage.Name = "labelItemDamage";
+            this.labelItemDamage.Size = new System.Drawing.Size(36, 13);
+            this.labelItemDamage.TabIndex = 19;
+            this.labelItemDamage.Text = "Dano:";
             // 
             // FormAddItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(783, 356);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.labelItemDamage);
             this.Controls.Add(this.textBoxItemDamage);
             this.Controls.Add(this.numericUpDownItemAmount);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.labelItemAmount);
             this.Controls.Add(this.buttonItemColor);
             this.Controls.Add(this.buttonCancelItem);
             this.Controls.Add(this.buttonSaveItem);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.labelItemRange);
+            this.Controls.Add(this.labelItemTrait);
             this.Controls.Add(this.comboBoxItemRange);
             this.Controls.Add(this.comboBoxItemTrait);
             this.Controls.Add(this.comboBoxItemTier);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.labelItemTier);
             this.Controls.Add(this.comboBoxItemType);
             this.Controls.Add(this.textBoxItemDescription);
             this.Controls.Add(this.textBoxItemName);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelItemType);
+            this.Controls.Add(this.labelItemDescription);
+            this.Controls.Add(this.labelItemName);
             this.Name = "FormAddItem";
             this.Text = "Adicionar Item";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownItemAmount)).EndInit();
@@ -295,24 +295,24 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelItemName;
+        private System.Windows.Forms.Label labelItemDescription;
+        private System.Windows.Forms.Label labelItemType;
         private System.Windows.Forms.TextBox textBoxItemName;
         private System.Windows.Forms.TextBox textBoxItemDescription;
         private System.Windows.Forms.ComboBox comboBoxItemType;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelItemTier;
         private System.Windows.Forms.ComboBox comboBoxItemTier;
         private System.Windows.Forms.ComboBox comboBoxItemTrait;
         private System.Windows.Forms.ComboBox comboBoxItemRange;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelItemTrait;
+        private System.Windows.Forms.Label labelItemRange;
         private System.Windows.Forms.Button buttonSaveItem;
         private System.Windows.Forms.Button buttonCancelItem;
         private System.Windows.Forms.Button buttonItemColor;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label labelItemAmount;
         private System.Windows.Forms.NumericUpDown numericUpDownItemAmount;
         private System.Windows.Forms.TextBox textBoxItemDamage;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label labelItemDamage;
     }
 }

@@ -28,38 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelSkillName = new System.Windows.Forms.Label();
             this.textBoxSkillName = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.labelSkillType = new System.Windows.Forms.Label();
             this.comboBoxSkillType = new System.Windows.Forms.ComboBox();
             this.comboBoxSkillTrait = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelSkillTrait = new System.Windows.Forms.Label();
             this.comboBoxSkillSource = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelSkillSource = new System.Windows.Forms.Label();
             this.comboBoxSkillRange = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.labelSkillRange = new System.Windows.Forms.Label();
             this.comboBoxSkillDomain = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.labelSkillDomain = new System.Windows.Forms.Label();
             this.numericUpDownRecallCost = new System.Windows.Forms.NumericUpDown();
-            this.label7 = new System.Windows.Forms.Label();
+            this.labelRecallCost = new System.Windows.Forms.Label();
             this.textBoxSkillDamage = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.labelSkillDamage = new System.Windows.Forms.Label();
             this.textBoxSkillDescription = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.labelSkillDescription = new System.Windows.Forms.Label();
             this.buttonSkillColor = new System.Windows.Forms.Button();
             this.buttonCancelSkill = new System.Windows.Forms.Button();
             this.buttonSaveSkill = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownRecallCost)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // labelSkillName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nome da Habilidade:";
+            this.labelSkillName.AutoSize = true;
+            this.labelSkillName.Location = new System.Drawing.Point(13, 13);
+            this.labelSkillName.Name = "labelSkillName";
+            this.labelSkillName.Size = new System.Drawing.Size(106, 13);
+            this.labelSkillName.TabIndex = 0;
+            this.labelSkillName.Text = "Nome da Habilidade:";
             // 
             // textBoxSkillName
             // 
@@ -68,14 +68,14 @@
             this.textBoxSkillName.Size = new System.Drawing.Size(130, 20);
             this.textBoxSkillName.TabIndex = 1;
             // 
-            // label2
+            // labelSkillType
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(195, 13);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Tipo:";
+            this.labelSkillType.AutoSize = true;
+            this.labelSkillType.Location = new System.Drawing.Point(195, 13);
+            this.labelSkillType.Name = "labelSkillType";
+            this.labelSkillType.Size = new System.Drawing.Size(31, 13);
+            this.labelSkillType.TabIndex = 2;
+            this.labelSkillType.Text = "Tipo:";
             // 
             // comboBoxSkillType
             // 
@@ -107,14 +107,14 @@
             this.comboBoxSkillTrait.Size = new System.Drawing.Size(161, 21);
             this.comboBoxSkillTrait.TabIndex = 5;
             // 
-            // label3
+            // labelSkillTrait
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(384, 13);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Atributo:";
+            this.labelSkillTrait.AutoSize = true;
+            this.labelSkillTrait.Location = new System.Drawing.Point(384, 13);
+            this.labelSkillTrait.Name = "labelSkillTrait";
+            this.labelSkillTrait.Size = new System.Drawing.Size(46, 13);
+            this.labelSkillTrait.TabIndex = 4;
+            this.labelSkillTrait.Text = "Atributo:";
             // 
             // comboBoxSkillSource
             // 
@@ -130,14 +130,14 @@
             this.comboBoxSkillSource.Size = new System.Drawing.Size(161, 21);
             this.comboBoxSkillSource.TabIndex = 7;
             // 
-            // label4
+            // labelSkillSource
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(195, 68);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Fonte:";
+            this.labelSkillSource.AutoSize = true;
+            this.labelSkillSource.Location = new System.Drawing.Point(195, 68);
+            this.labelSkillSource.Name = "labelSkillSource";
+            this.labelSkillSource.Size = new System.Drawing.Size(37, 13);
+            this.labelSkillSource.TabIndex = 6;
+            this.labelSkillSource.Text = "Fonte:";
             // 
             // comboBoxSkillRange
             // 
@@ -155,14 +155,14 @@
             this.comboBoxSkillRange.Size = new System.Drawing.Size(161, 21);
             this.comboBoxSkillRange.TabIndex = 9;
             // 
-            // label5
+            // labelSkillRange
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(384, 68);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Alcance:";
+            this.labelSkillRange.AutoSize = true;
+            this.labelSkillRange.Location = new System.Drawing.Point(384, 68);
+            this.labelSkillRange.Name = "labelSkillRange";
+            this.labelSkillRange.Size = new System.Drawing.Size(49, 13);
+            this.labelSkillRange.TabIndex = 8;
+            this.labelSkillRange.Text = "Alcance:";
             // 
             // comboBoxSkillDomain
             // 
@@ -184,14 +184,14 @@
             this.comboBoxSkillDomain.Size = new System.Drawing.Size(161, 21);
             this.comboBoxSkillDomain.TabIndex = 11;
             // 
-            // label6
+            // labelSkillDomain
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(195, 118);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 13);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Domínio:";
+            this.labelSkillDomain.AutoSize = true;
+            this.labelSkillDomain.Location = new System.Drawing.Point(195, 118);
+            this.labelSkillDomain.Name = "labelSkillDomain";
+            this.labelSkillDomain.Size = new System.Drawing.Size(50, 13);
+            this.labelSkillDomain.TabIndex = 10;
+            this.labelSkillDomain.Text = "Domínio:";
             // 
             // numericUpDownRecallCost
             // 
@@ -205,14 +205,14 @@
             this.numericUpDownRecallCost.Size = new System.Drawing.Size(120, 20);
             this.numericUpDownRecallCost.TabIndex = 12;
             // 
-            // label7
+            // labelRecallCost
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(387, 175);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(83, 13);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Custo de Troca:";
+            this.labelRecallCost.AutoSize = true;
+            this.labelRecallCost.Location = new System.Drawing.Point(387, 175);
+            this.labelRecallCost.Name = "labelRecallCost";
+            this.labelRecallCost.Size = new System.Drawing.Size(83, 13);
+            this.labelRecallCost.TabIndex = 13;
+            this.labelRecallCost.Text = "Custo de Troca:";
             // 
             // textBoxSkillDamage
             // 
@@ -221,14 +221,14 @@
             this.textBoxSkillDamage.Size = new System.Drawing.Size(161, 20);
             this.textBoxSkillDamage.TabIndex = 15;
             // 
-            // label8
+            // labelSkillDamage
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(387, 119);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(36, 13);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "Dano:";
+            this.labelSkillDamage.AutoSize = true;
+            this.labelSkillDamage.Location = new System.Drawing.Point(387, 119);
+            this.labelSkillDamage.Name = "labelSkillDamage";
+            this.labelSkillDamage.Size = new System.Drawing.Size(36, 13);
+            this.labelSkillDamage.TabIndex = 14;
+            this.labelSkillDamage.Text = "Dano:";
             // 
             // textBoxSkillDescription
             // 
@@ -238,14 +238,14 @@
             this.textBoxSkillDescription.Size = new System.Drawing.Size(369, 153);
             this.textBoxSkillDescription.TabIndex = 16;
             // 
-            // label9
+            // labelSkillDescription
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(13, 174);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(58, 13);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "Descrição:";
+            this.labelSkillDescription.AutoSize = true;
+            this.labelSkillDescription.Location = new System.Drawing.Point(13, 174);
+            this.labelSkillDescription.Name = "labelSkillDescription";
+            this.labelSkillDescription.Size = new System.Drawing.Size(58, 13);
+            this.labelSkillDescription.TabIndex = 17;
+            this.labelSkillDescription.Text = "Descrição:";
             // 
             // buttonSkillColor
             // 
@@ -282,24 +282,24 @@
             this.Controls.Add(this.buttonSaveSkill);
             this.Controls.Add(this.buttonCancelSkill);
             this.Controls.Add(this.buttonSkillColor);
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.labelSkillDescription);
             this.Controls.Add(this.textBoxSkillDescription);
             this.Controls.Add(this.textBoxSkillDamage);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.labelSkillDamage);
+            this.Controls.Add(this.labelRecallCost);
             this.Controls.Add(this.numericUpDownRecallCost);
             this.Controls.Add(this.comboBoxSkillDomain);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.labelSkillDomain);
             this.Controls.Add(this.comboBoxSkillRange);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.labelSkillRange);
             this.Controls.Add(this.comboBoxSkillSource);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.labelSkillSource);
             this.Controls.Add(this.comboBoxSkillTrait);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.labelSkillTrait);
             this.Controls.Add(this.comboBoxSkillType);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.labelSkillType);
             this.Controls.Add(this.textBoxSkillName);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelSkillName);
             this.Name = "FormAddSkill";
             this.Text = "Adicionar Habilidade";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownRecallCost)).EndInit();
@@ -310,24 +310,24 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelSkillName;
         private System.Windows.Forms.TextBox textBoxSkillName;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelSkillType;
         private System.Windows.Forms.ComboBox comboBoxSkillType;
         private System.Windows.Forms.ComboBox comboBoxSkillTrait;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelSkillTrait;
         private System.Windows.Forms.ComboBox comboBoxSkillSource;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelSkillSource;
         private System.Windows.Forms.ComboBox comboBoxSkillRange;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labelSkillRange;
         private System.Windows.Forms.ComboBox comboBoxSkillDomain;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelSkillDomain;
         private System.Windows.Forms.NumericUpDown numericUpDownRecallCost;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label labelRecallCost;
         private System.Windows.Forms.TextBox textBoxSkillDamage;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label labelSkillDamage;
         private System.Windows.Forms.TextBox textBoxSkillDescription;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label labelSkillDescription;
         private System.Windows.Forms.Button buttonSkillColor;
         private System.Windows.Forms.Button buttonCancelSkill;
         private System.Windows.Forms.Button buttonSaveSkill;
