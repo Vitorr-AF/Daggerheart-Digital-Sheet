@@ -82,16 +82,16 @@
             this.labelName = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.buttonAddSkill = new System.Windows.Forms.Button();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label21 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label20 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label19 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label15 = new System.Windows.Forms.Label();
+            this.labelOtherSkill = new System.Windows.Forms.Label();
+            this.labelSkills = new System.Windows.Forms.Label();
+            this.flowLayoutOther = new System.Windows.Forms.FlowLayoutPanel();
+            this.labelHeritageSkill = new System.Windows.Forms.Label();
+            this.flowLayoutHeritage = new System.Windows.Forms.FlowLayoutPanel();
+            this.labelDomainSkill = new System.Windows.Forms.Label();
+            this.flowLayoutDomain = new System.Windows.Forms.FlowLayoutPanel();
+            this.labelClassSkill = new System.Windows.Forms.Label();
+            this.flowLayoutClass = new System.Windows.Forms.FlowLayoutPanel();
+            this.labelInventory = new System.Windows.Forms.Label();
             this.flowLayoutInventory = new System.Windows.Forms.FlowLayoutPanel();
             this.buttonAddItem = new System.Windows.Forms.Button();
             this.labelCurrent = new System.Windows.Forms.Label();
@@ -847,16 +847,16 @@
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.buttonAddSkill);
-            this.tabPage2.Controls.Add(this.label17);
-            this.tabPage2.Controls.Add(this.label16);
-            this.tabPage2.Controls.Add(this.flowLayoutPanel1);
-            this.tabPage2.Controls.Add(this.label21);
-            this.tabPage2.Controls.Add(this.flowLayoutPanel6);
-            this.tabPage2.Controls.Add(this.label20);
-            this.tabPage2.Controls.Add(this.flowLayoutPanel5);
-            this.tabPage2.Controls.Add(this.label19);
-            this.tabPage2.Controls.Add(this.flowLayoutPanel4);
-            this.tabPage2.Controls.Add(this.label15);
+            this.tabPage2.Controls.Add(this.labelOtherSkill);
+            this.tabPage2.Controls.Add(this.labelSkills);
+            this.tabPage2.Controls.Add(this.flowLayoutOther);
+            this.tabPage2.Controls.Add(this.labelHeritageSkill);
+            this.tabPage2.Controls.Add(this.flowLayoutHeritage);
+            this.tabPage2.Controls.Add(this.labelDomainSkill);
+            this.tabPage2.Controls.Add(this.flowLayoutDomain);
+            this.tabPage2.Controls.Add(this.labelClassSkill);
+            this.tabPage2.Controls.Add(this.flowLayoutClass);
+            this.tabPage2.Controls.Add(this.labelInventory);
             this.tabPage2.Controls.Add(this.flowLayoutInventory);
             this.tabPage2.Controls.Add(this.buttonAddItem);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
@@ -877,97 +877,97 @@
             this.buttonAddSkill.UseVisualStyleBackColor = true;
             this.buttonAddSkill.Click += new System.EventHandler(this.buttonAddSkill_Click);
             // 
-            // label17
+            // labelOtherSkill
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(513, 205);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(58, 18);
-            this.label17.TabIndex = 14;
-            this.label17.Text = "Outros:";
+            this.labelOtherSkill.AutoSize = true;
+            this.labelOtherSkill.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelOtherSkill.Location = new System.Drawing.Point(513, 205);
+            this.labelOtherSkill.Name = "labelOtherSkill";
+            this.labelOtherSkill.Size = new System.Drawing.Size(58, 18);
+            this.labelOtherSkill.TabIndex = 14;
+            this.labelOtherSkill.Text = "Outros:";
             // 
-            // label16
+            // labelSkills
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(277, 10);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(126, 24);
-            this.label16.TabIndex = 13;
-            this.label16.Text = "Habilidades:";
+            this.labelSkills.AutoSize = true;
+            this.labelSkills.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSkills.Location = new System.Drawing.Point(277, 10);
+            this.labelSkills.Name = "labelSkills";
+            this.labelSkills.Size = new System.Drawing.Size(126, 24);
+            this.labelSkills.TabIndex = 13;
+            this.labelSkills.Text = "Habilidades:";
             // 
-            // flowLayoutPanel1
+            // flowLayoutOther
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Gainsboro;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(513, 226);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(212, 132);
-            this.flowLayoutPanel1.TabIndex = 13;
+            this.flowLayoutOther.BackColor = System.Drawing.Color.Gainsboro;
+            this.flowLayoutOther.Location = new System.Drawing.Point(513, 226);
+            this.flowLayoutOther.Name = "flowLayoutOther";
+            this.flowLayoutOther.Size = new System.Drawing.Size(212, 132);
+            this.flowLayoutOther.TabIndex = 13;
             // 
-            // label21
+            // labelHeritageSkill
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(279, 205);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(196, 18);
-            this.label21.TabIndex = 12;
-            this.label21.Text = "Ancestralidade/Comunidade:";
+            this.labelHeritageSkill.AutoSize = true;
+            this.labelHeritageSkill.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelHeritageSkill.Location = new System.Drawing.Point(279, 205);
+            this.labelHeritageSkill.Name = "labelHeritageSkill";
+            this.labelHeritageSkill.Size = new System.Drawing.Size(196, 18);
+            this.labelHeritageSkill.TabIndex = 12;
+            this.labelHeritageSkill.Text = "Ancestralidade/Comunidade:";
             // 
-            // flowLayoutPanel6
+            // flowLayoutHeritage
             // 
-            this.flowLayoutPanel6.BackColor = System.Drawing.Color.Gainsboro;
-            this.flowLayoutPanel6.Location = new System.Drawing.Point(282, 226);
-            this.flowLayoutPanel6.Name = "flowLayoutPanel6";
-            this.flowLayoutPanel6.Size = new System.Drawing.Size(212, 132);
-            this.flowLayoutPanel6.TabIndex = 11;
+            this.flowLayoutHeritage.BackColor = System.Drawing.Color.Gainsboro;
+            this.flowLayoutHeritage.Location = new System.Drawing.Point(282, 226);
+            this.flowLayoutHeritage.Name = "flowLayoutHeritage";
+            this.flowLayoutHeritage.Size = new System.Drawing.Size(212, 132);
+            this.flowLayoutHeritage.TabIndex = 11;
             // 
-            // label20
+            // labelDomainSkill
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(513, 39);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(128, 18);
-            this.label20.TabIndex = 10;
-            this.label20.Text = "Carta de Domínio:";
+            this.labelDomainSkill.AutoSize = true;
+            this.labelDomainSkill.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDomainSkill.Location = new System.Drawing.Point(513, 39);
+            this.labelDomainSkill.Name = "labelDomainSkill";
+            this.labelDomainSkill.Size = new System.Drawing.Size(128, 18);
+            this.labelDomainSkill.TabIndex = 10;
+            this.labelDomainSkill.Text = "Carta de Domínio:";
             // 
-            // flowLayoutPanel5
+            // flowLayoutDomain
             // 
-            this.flowLayoutPanel5.BackColor = System.Drawing.Color.Gainsboro;
-            this.flowLayoutPanel5.Location = new System.Drawing.Point(513, 62);
-            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
-            this.flowLayoutPanel5.Size = new System.Drawing.Size(212, 132);
-            this.flowLayoutPanel5.TabIndex = 9;
+            this.flowLayoutDomain.BackColor = System.Drawing.Color.Gainsboro;
+            this.flowLayoutDomain.Location = new System.Drawing.Point(513, 62);
+            this.flowLayoutDomain.Name = "flowLayoutDomain";
+            this.flowLayoutDomain.Size = new System.Drawing.Size(212, 132);
+            this.flowLayoutDomain.TabIndex = 9;
             // 
-            // label19
+            // labelClassSkill
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(278, 39);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(131, 18);
-            this.label19.TabIndex = 8;
-            this.label19.Text = "Classe/Subclasse:";
+            this.labelClassSkill.AutoSize = true;
+            this.labelClassSkill.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelClassSkill.Location = new System.Drawing.Point(278, 39);
+            this.labelClassSkill.Name = "labelClassSkill";
+            this.labelClassSkill.Size = new System.Drawing.Size(131, 18);
+            this.labelClassSkill.TabIndex = 8;
+            this.labelClassSkill.Text = "Classe/Subclasse:";
             // 
-            // flowLayoutPanel4
+            // flowLayoutClass
             // 
-            this.flowLayoutPanel4.BackColor = System.Drawing.Color.Gainsboro;
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(282, 62);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(212, 132);
-            this.flowLayoutPanel4.TabIndex = 7;
+            this.flowLayoutClass.BackColor = System.Drawing.Color.Gainsboro;
+            this.flowLayoutClass.Location = new System.Drawing.Point(282, 62);
+            this.flowLayoutClass.Name = "flowLayoutClass";
+            this.flowLayoutClass.Size = new System.Drawing.Size(212, 132);
+            this.flowLayoutClass.TabIndex = 7;
             // 
-            // label15
+            // labelInventory
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(11, 10);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(107, 24);
-            this.label15.TabIndex = 3;
-            this.label15.Text = "Inventário:";
+            this.labelInventory.AutoSize = true;
+            this.labelInventory.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelInventory.Location = new System.Drawing.Point(11, 10);
+            this.labelInventory.Name = "labelInventory";
+            this.labelInventory.Size = new System.Drawing.Size(107, 24);
+            this.labelInventory.TabIndex = 3;
+            this.labelInventory.Text = "Inventário:";
             // 
             // flowLayoutInventory
             // 
@@ -1178,17 +1178,17 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button buttonAddItem;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutInventory;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel6;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
+        private System.Windows.Forms.Label labelInventory;
+        private System.Windows.Forms.Label labelSkills;
+        private System.Windows.Forms.Label labelHeritageSkill;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutHeritage;
+        private System.Windows.Forms.Label labelDomainSkill;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutDomain;
+        private System.Windows.Forms.Label labelClassSkill;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutClass;
         private System.Windows.Forms.Button buttonAddSkill;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Label labelOtherSkill;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutOther;
         private System.Windows.Forms.NumericUpDown numericUpDownMaxHope;
         private System.Windows.Forms.NumericUpDown numericUpDownMaxStress;
         private System.Windows.Forms.NumericUpDown numericUpDownMaxHealth;
